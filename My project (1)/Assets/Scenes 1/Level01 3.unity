@@ -660,7 +660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartDeley: 1
-  completLevelUI: {fileID: 0}
+  completLevelUI: {fileID: 2099942306}
 --- !u!4 &540691128
 Transform:
   m_ObjectHideFlags: 0
@@ -1981,6 +1981,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7981932568104041412, guid: 5316379787b9d084f8292dc9637e5187, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 129726864}
+    - target: {fileID: 7981932568104041412, guid: 5316379787b9d084f8292dc9637e5187, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 2099942305}
     - target: {fileID: 8814989372374093938, guid: 5316379787b9d084f8292dc9637e5187, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2067,6 +2075,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5316379787b9d084f8292dc9637e5187, type: 3}
+--- !u!114 &2099942305 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3144226917276109047, guid: 5316379787b9d084f8292dc9637e5187, type: 3}
+  m_PrefabInstance: {fileID: 2099942304}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2099942306 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6005179353003022638, guid: 5316379787b9d084f8292dc9637e5187, type: 3}
+  m_PrefabInstance: {fileID: 2099942304}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2103828414 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5811484686046772347, guid: f505a5531a97cac469330df021dd7de2, type: 3}

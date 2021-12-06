@@ -552,7 +552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 129726864}
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 316201940}
 --- !u!1001 &153013081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1057,6 +1057,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5316379787b9d084f8292dc9637e5187, type: 3}
+--- !u!114 &316201940 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3144226917276109047, guid: 5316379787b9d084f8292dc9637e5187, type: 3}
+  m_PrefabInstance: {fileID: 316201939}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &316201941 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6005179353003022638, guid: 5316379787b9d084f8292dc9637e5187, type: 3}
+  m_PrefabInstance: {fileID: 316201939}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &334282253 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5811484686046772347, guid: f505a5531a97cac469330df021dd7de2, type: 3}
@@ -1360,7 +1376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartDeley: 1
-  completLevelUI: {fileID: 0}
+  completLevelUI: {fileID: 316201941}
 --- !u!4 &540691128
 Transform:
   m_ObjectHideFlags: 0
