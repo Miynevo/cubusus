@@ -222,6 +222,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1676740909}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: openLevel
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1676740907}
         m_TargetAssemblyTypeName: LevelNew, Assembly-CSharp
         m_MethodName: Level02
@@ -371,6 +383,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1676740909}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: openLevel
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1676740907}
         m_TargetAssemblyTypeName: LevelNew, Assembly-CSharp
         m_MethodName: Level03
@@ -2507,6 +2531,7 @@ GameObject:
   - component: {fileID: 1676740903}
   - component: {fileID: 1676740908}
   - component: {fileID: 1676740907}
+  - component: {fileID: 1676740909}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -2633,6 +2658,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 097632c37daf44548ac3344c124a391a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1676740909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676740902}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105679c663f656f4ab4e701a5fe8005e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelbuttons:
+  - {fileID: 2054162284}
+  - {fileID: 37611630}
+  - {fileID: 39670556}
 --- !u!1 &1685023136
 GameObject:
   m_ObjectHideFlags: 0
@@ -3350,6 +3391,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1676740909}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: openLevel
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1676740907}
         m_TargetAssemblyTypeName: LevelNew, Assembly-CSharp
         m_MethodName: Level01
