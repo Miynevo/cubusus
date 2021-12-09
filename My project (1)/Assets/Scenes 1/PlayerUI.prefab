@@ -195,8 +195,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -918, y: 502}
-  m_SizeDelta: {x: 64, y: 64}
+  m_AnchoredPosition: {x: -354, y: 109}
+  m_SizeDelta: {x: 64, y: 67.2165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7814548763399905585
 CanvasRenderer:
@@ -993,7 +993,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: 329}
+  m_AnchoredPosition: {x: 41, y: 126}
   m_SizeDelta: {x: 438.8993, y: 381.0416}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6600835680161993540
@@ -1026,7 +1026,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9acb94bd4ecb3f04697b911d4061080f, type: 3}
-    m_FontSize: 200
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1213,7 +1213,7 @@ Canvas:
   m_GameObject: {fileID: 6600835680855423895}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
@@ -1237,7 +1237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
