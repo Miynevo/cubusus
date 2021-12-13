@@ -2424,7 +2424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1621098130}
-  offset: {x: 0, y: 1, z: -5}
+  offset: {x: 0, y: 2, z: -5}
 --- !u!1001 &1052063475
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3867,6 +3867,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4956980808908246409, guid: a6a69647545a2ce40b6d0c3b0ff31c6a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8985514351819755695, guid: a6a69647545a2ce40b6d0c3b0ff31c6a, type: 3}
       propertyPath: m_Name
       value: Player
