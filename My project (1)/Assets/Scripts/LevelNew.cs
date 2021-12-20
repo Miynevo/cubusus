@@ -43,4 +43,25 @@ public class LevelNew : MonoBehaviour
     {
         SceneManager.LoadScene("Level01 10");
     }
+    public void Level11()
+    {
+        SceneManager.LoadScene("Level01 11");
+    }
+    public void Level12()
+    {
+        SceneManager.LoadScene("Level01 12");
+    }
+    public void Level13()
+    {
+        SceneManager.LoadScene("Level01 13");
+    }
+    public void Level14()
+    {
+        SceneManager.LoadScene("Level01 14");
+    }
+    public void Level15()
+    {
+        SceneManager.LoadScene("Level01 15");
+    }
 }
+
